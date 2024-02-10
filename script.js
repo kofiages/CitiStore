@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     direction: "horizontal",
     loop: true,
     autoplay: {
-      delay: 5000, // 5 seconds delay between slides
+      delay: 10000, // 10 seconds delay between slides
     },
 
     // If we need pagination

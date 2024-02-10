@@ -7,12 +7,18 @@ body {
   background-color: #dddddd;
   color: #333;
 }
+.top-stripe{
+  background: rgb(0, 71, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 #citiStore {
   width: 100%;
   background: #dddddd;
 }
 #initial {
-  width: 1200px;
+  width: 1170px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -48,13 +54,13 @@ header {
   background: #ffffff;
 }
 header section {
-  width: 1200px;
+  width: 1170px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
   text-align: center;
-  padding: 5px;
+  padding: 0;
   background: #ffffff;
 }
 .col03 {
@@ -92,6 +98,8 @@ form button {
 header section img {
   width: 200px;
   display: flex;
+  margin: 0;
+  padding: 0;
 }
 .navbar {
   padding: 0%;
@@ -149,8 +157,8 @@ header section img {
 
 
 .catAdvert{
-  width: 1200px;
-  max-width: 1200px;
+  width: 1170px;
+  max-width: 1170px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -187,6 +195,7 @@ header section img {
 }
 .swiper {
   width: 712px;
+  max-width: 712px;
   height: 384px;
   margin: 0 auto;
   text-align: center;
@@ -257,4 +266,29 @@ header section img {
 }
 .swiper-button-next:hover {
   opacity: 100; /* Show the element on hover */
+}
+
+.advert{
+  width: 1170px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 5px;
+}
+.advert h2{
+  text-align: center;
+  padding: 0;
+  margin-bottom: 0;
+  border: 1px solid red;
+}
+.advert img{
+  display: flex;
+  padding: 8px;
+  margin: 0 auto;
+  border-radius: 14px;
+}
+.advertList{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  border-radius: 14px;
 }
