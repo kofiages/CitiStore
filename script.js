@@ -20,8 +20,8 @@ document.addEventListener("DOMContentLoaded", function () {
     },
 
     // And if we need scrollbar
-    scrollbar: {
-      el: ".swiper-scrollbar",
-    },
+    // scrollbar: {
+    //   el: ".swiper-scrollbar",
+    // },
   });
 });
