@@ -1,4 +1,7 @@
 {
     "window.commandCenter": true,
-    "window.closeWhenEmpty": false
+    "window.closeWhenEmpty": false,
+    "cSpell.words": [
+        "Citi"
+    ]
 }
