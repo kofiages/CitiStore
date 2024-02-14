@@ -144,7 +144,7 @@ header section img {
 }
 .dropdown-menu {
   display: none;
-  position: absolute;
+  /* position: absolute; */
   top: 100%;
   left: 0;
   background-color: rgb(255, 0, 0);
@@ -172,7 +172,7 @@ header section img {
 }
 .categories{
   background-color: rgb(255, 255, 255);
-  border-radius: 10px;
+  border-radius: 10px 0 0 10px ;
 }
 .catHdr{
   padding: 0;
@@ -186,6 +186,9 @@ header section img {
   text-align: center;
   margin: 6.5px 0;
   width: 180px;
+  cursor: pointer;
+  border: 1px solid yellow;
+  max-height: 30px;
 }
 .catList i{
   width: 30px;
@@ -193,7 +196,22 @@ header section img {
 .catList p{
   margin: 0;
 }
+.catWrapper{
+  display: none;
+  position: relative;
+  top: 190px;
+  left: 50%;
+  height: 395px;
+  background-color: rgb(255, 0, 0);
+  padding: 10px;
+  list-style-type: none
+  border-radius: 10px 0 0 10px ;
+}
+.catList:hover .catWrapper {
+  display: flex;
+}
 .swiper {
+  position: relative;
   width: 712px;
   max-width: 712px;
   height: 384px;
